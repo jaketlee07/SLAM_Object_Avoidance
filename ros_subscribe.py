@@ -39,7 +39,7 @@ def get_scan():
         return jsonify({'error': 'No scan data available'})
 
 def run_flask():
-    app.run(host='0.0.0.0', port=11311)
+    app.run(host='0.0.0.0', port=5000)
 
 if __name__ == '__main__':
     rospy.init_node('lidar_data_server')

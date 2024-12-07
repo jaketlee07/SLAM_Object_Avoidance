@@ -1,7 +1,7 @@
 import requests
 import time
 
-def get_lidar_data(robot_ip, port=11311):
+def get_lidar_data(robot_ip, port=500):
     url = f"http://{robot_ip}:{port}/get_scan"
     try:
         response = requests.get(url)
