@@ -39,7 +39,7 @@ def get_combined_data(robot_ip, port=5000):
         return None
 
 if __name__ == "__main__":
-    robot_ip = "192.168.5.205"  # Replace with your robot's IP address
+    robot_ip = "192.168.0.192"  # Replace with your robot's IP address
 
     while True:
         combined_data = get_combined_data(robot_ip)
